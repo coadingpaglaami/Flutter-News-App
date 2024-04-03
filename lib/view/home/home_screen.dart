@@ -6,14 +6,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_news_app/bloc/news_bloc.dart';
 import 'package:flutter_news_app/bloc/news_event.dart';
 import 'package:flutter_news_app/bloc/news_states.dart';
-import 'package:flutter_news_app/view/cateogires_screen.dart';
 import 'package:flutter_news_app/view/home/widgets/headlines_widget.dart';
 import 'package:flutter_news_app/view/home/widgets/home_app_bar_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 
-import '../news_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

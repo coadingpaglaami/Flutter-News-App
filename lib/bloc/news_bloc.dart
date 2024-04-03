@@ -5,8 +5,6 @@ import 'package:flutter_news_app/bloc/news_event.dart';
 import 'package:flutter_news_app/bloc/news_states.dart';
 import 'package:flutter_news_app/repository/news_repository.dart';
 
-import '../models/categories_new_model.dart';
-import '../models/news_channel_headlines_model.dart';
 
 
 class NewsBloc extends Bloc<NewsEvent , NewsState> {
